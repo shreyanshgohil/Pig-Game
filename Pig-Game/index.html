@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig-game</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <main>
+        <div class="container ">
+            <button class="btn btn-new-game">🔄 New game</button>
+            <button class="btn btn-role-dice">🎲 Roll dice</button>
+            <button class="btn btn-hold-dice">📥 Hold</button>
+            <img src="images/dice-1.png" alt="png of dice" class="img-dice">
+            <div class="col col1 color-turn">
+                <div class="player-container">
+                    <p class="player-title">Player-1</p>
+                    <span class="total-score" id="player-1-total">0</span>
+                </div>
+                <div class="score-container ">
+                    <p class="socre-title">CURRENT</p>
+                    <span class="current-score" id="player-1-current">0</span>
+                </div>
+            </div>
+            <div class="col col2">
+                <div class="player-container">
+                    <p class="player-title">Player-2</p>
+                    <span class="total-score" id="player-2-total">0</span>
+                </div>
+                <div class="score-container">
+                    <p class="socre-title">CURRENT</p>
+                    <span class="current-score" id="player-2-current">0</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
